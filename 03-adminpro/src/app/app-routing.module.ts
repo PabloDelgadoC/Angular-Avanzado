@@ -9,6 +9,7 @@ import { PagesComponent } from "./pages/pages.component";
 import { ProgressComponent } from "./pages/progress/progress.component";
 
 const routes: Routes = [
+    //{path: '', redirectTo: '/login', pathMatch: 'full'},
     {
         path: '',
         component: PagesComponent,
